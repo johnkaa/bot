@@ -5,7 +5,7 @@ const curScene = new SceneGenerator()
 const nameScene = curScene.GenNameScene()
 const giftScene = curScene.GenGiftScene()
 
-const bot = new Telegraf(config.get('token'))
+const bot = new Telegraf('5097868531:AAEFRfBYUbnYRjUVgpqYa2ORJT7maMc2M6A')
 
 bot.use(Telegraf.log())
 
